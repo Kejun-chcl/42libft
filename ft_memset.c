@@ -6,7 +6,7 @@
 /*   By: kexu <kexu@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/21 10:50:55 by kexu              #+#    #+#             */
-/*   Updated: 2025/11/21 14:54:22 by kexu             ###   ########.fr       */
+/*   Updated: 2025/11/21 15:59:41 by kexu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,6 +31,7 @@ void *ft_memset(void *s, int c, size_t n)
  -- 内存边界溢出不是 memset 的责任，不检查内存是否足够
 */
 
+/*
 #include <stdio.h>
 #include <string.h>
 static void test_basic()
@@ -81,3 +82,4 @@ int main()
     test_overflow();
     return (0);
 }
+*/
